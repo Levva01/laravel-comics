@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    &__logo {
+        img {
+            width: 80px;
+            height: auto;
+        }
+    }
+    &__nav {
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: .9375rem;
+            font-size: .875rem;
+            font-weight: bold;
+            a{
+                text-decoration: none;
+                color: #464646;
+            }
+        }
+    }
+}
